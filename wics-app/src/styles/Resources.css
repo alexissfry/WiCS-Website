@@ -1,0 +1,173 @@
+.resourceBox {
+  position: relative;
+  width: 270px;
+  height: 68px;
+  margin: 0 auto;
+  top: -150px;
+
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 67px;
+  text-align: center;
+
+  color: #000000;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.resourcesBox container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  top: -50px;
+  width: 100%;
+  background-color: #ebe5f3;
+  box-shadow: none;
+  height: 308px;
+}
+
+.box-sections {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.box-sections li {
+  flex: 1;
+  margin: 0 50px;
+}
+
+.box-sections li:first-child {
+  margin-left: 0;
+}
+
+.box-sections li:last-child {
+  margin-right: 0;
+}
+
+.box {
+  width: 290px;
+  height: 308px;
+  background-color: #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  position: relative;
+  top: 0px;
+}
+
+.resourceBox-title {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 31px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+}
+
+.text {
+  font-family: "Cabin";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.mentorship {
+  background: #f0d1ff;
+}
+
+.community {
+  background: #c7ade8;
+}
+
+.mailing {
+  background: #182c37;
+}
+
+.button {
+  position: relative;
+  width: 209px;
+  height: 59px;
+  top: 55px;
+  font-family: "Cabin";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+
+.dropdown-container {
+  position: relative;
+  z-index: 1;
+  margin-top: 100px; /* Set the initial margin */
+}
+
+.dropdown {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 0; /* Remove the margin */
+  transition: all 0.2s ease-in-out; /* Add a transition for animation */
+}
+
+.dropdown.open {
+  margin-top: 40px; /* Set the margin when the dropdown is open */
+}
+
+.dropdown button {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.dropdown .arrow {
+  width: 0;
+  height: 0;
+  margin-left: 8px;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+}
+
+.dropdown .arrow.open {
+  border-top: none;
+  border-bottom: 5px solid #000;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  padding: 8px;
+  border: 1px solid #000;
+  z-index: 10;
+}
