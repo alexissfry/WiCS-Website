@@ -1,17 +1,8 @@
-.calendar h1 {
+.calendar {
   position: relative;
   width: 552px;
   height: 55px;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-
-  font-family: "FONTSPRING DEMO - Proxima Nova";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 55px;
-  line-height: 67px;
-  text-align: center;
-
-  color: #000000;
 }

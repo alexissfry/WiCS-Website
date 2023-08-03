@@ -1,15 +1,16 @@
+
 .image-style {
-  padding-top: 10px;
+  padding: 10px;
+  margin: 20px;
 }
 
 .social-subheading {
   font-size: 20px;
   font-weight: lighter;
-  justify-content: center;
   text-align: center;
+  margin-bottom: 30px;
 }
 
-.link-text {
-  color: black;
-  font-weight: 300;
+.row {
+  justify-content: center;
 }

@@ -1,8 +1,8 @@
 import * as React from "react";
 import "../styles/Landing.css";
-import WiCSLogo from "../styles/images/WiCSLogo.png";
+import WiCSLogo from "../assets/images/WiCSLogo.png";
 
-function LandingAll() {
+const Landing = () => {
   return (
     <div class="flex-container">
       <div class="column" classname="landing-column-left">
@@ -38,7 +38,4 @@ function LandingButton() {
   );
 }
 
-export const Landing = () => {
-  return <LandingAll />;
-};
 export default Landing;

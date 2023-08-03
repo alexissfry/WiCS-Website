@@ -6,11 +6,7 @@ header {
   height: 60px;
   background-color: #333;
   color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
-
 
 nav ul {
   list-style: none;
@@ -34,50 +30,47 @@ nav ul li a {
 
 main {
   margin-top: 60px;
+  background-color: #EBE5F3;
 }
 
 section {
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 50px 70px 50px 70px;
 }
 
-.navbar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 9999;
+.section-header {
+  font-family: "FONTSPRING DEMO - Proxima Nova";
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 67px;
+  text-align: center;
+  color: #313131;
+  margin-bottom: 2%;
 }
 
 .contact {
   margin-bottom: 100px;
 }
 
-/*link css*/
 .link-text {
   color:black;
   font-weight:300;
-
 }
 
-/*footer css*/
-
 .content-container {
-  min-height: calc(100vh - 34px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
 }
 
 footer {
-  position: fixed;
   background-color: #182C37;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  padding-top: 20px;
-  padding-left: 17px;
-  text-align: left;
-  text-align: bottom;
+  padding: 20px;
 }
 
 

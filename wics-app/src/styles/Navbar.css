@@ -1,41 +1,33 @@
 .navbar {
   display: flex;
+  justify-content: space-between;
+  align-content: center;
   position: fixed;
-  width: 100%;
-  height: 72px;
   left: 0px;
   top: 0px;
+  width: 100%;
+  height: 72px;
   background-color: #ebe5f3;
+  padding: 10px 20px;
 }
 
 .navbar-logo img {
   margin-right: 20px;
-  position: fixed;
   width: 128px;
   height: 72px;
-  left: 30px;
-  top: 5px;
 }
 
 .navbar-sections {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  list-style: none;
-  margin: 0;
 }
 
 .navbar-sections li {
   margin-left: 20px;
-  margin-top: 5px;
-}
-
-.navbar-sections li:first-child {
-  margin-left: 925px;
 }
 
 .navbar-sections li a {
   color: #182c37;
-  text-decoration: none;
   font-size: 1.1em;
 }
