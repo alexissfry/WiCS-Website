@@ -9,6 +9,7 @@
   height: 72px;
   background-color: #ebe5f3;
   padding: 10px 20px;
+  z-index: 1;
 }
 
 .navbar-logo img {
