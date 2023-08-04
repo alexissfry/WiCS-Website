@@ -7,7 +7,7 @@
 }
 
 .flex-container .column {
-  padding: 0px 20px;
+  padding: 0px 10px;
   -webkit-flex: 1; /* Safari */
   -ms-flex: 1; /* IE 10 */
   flex: 1; /* Standard */
