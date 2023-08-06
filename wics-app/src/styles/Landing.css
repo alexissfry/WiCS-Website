@@ -1,3 +1,11 @@
+.landing-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .flex-container {
   width: 90%;
   min-height: 300px;
