@@ -4,7 +4,7 @@ import { profiles } from "../assets/portraits/portraits";
 const Profile = ({ name, image }) => {
   return (
     <Col md={4}>
-      <div className="d-flex flex-column justify-content-center align-items-center m-3">
+      <div className="d-flex flex-column justify-content-start align-items-center m-3">
         <Image
           src={require("../assets/portraits/" + image)}
           alt={name}

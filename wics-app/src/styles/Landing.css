@@ -1,29 +1,11 @@
 .landing-container {
+  width: 100%;
+  padding: 5%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap-reverse;
   justify-content: space-between;
   align-items: center;
-}
-
-.flex-container {
-  width: 90%;
-  min-height: 300px;
-  margin: auto;
-  display: -webkit-flex; /* Safari */
-  display: flex; /* Standard */
-}
-
-.flex-container .column {
-  padding: 0px 10px;
-  -webkit-flex: 1; /* Safari */
-  -ms-flex: 1; /* IE 10 */
-  flex: 1; /* Standard */
-}
-
-.landing-column-left {
-    margin: auto;
-    color: #182C37;
 }
 
 
