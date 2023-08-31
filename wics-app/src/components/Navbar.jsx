@@ -1,13 +1,13 @@
 import React from "react";
 import "../styles/Navbar.css";
-import WiCS_Logo from "../styles/images/WiCS.png";
+import WiCS from "../assets/images/WiCS.png";
 
 function Navbar() {
   return (
     <nav className="navbar">
       <div className="navbar-logo">
         <a href="#Landing">
-          <img src={WiCS_Logo} alt="Logo" />
+          <img src={WiCS} alt="Logo" />
         </a>
       </div>
       <ul className="navbar-sections">

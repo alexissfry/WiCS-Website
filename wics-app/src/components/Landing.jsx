@@ -1,26 +1,25 @@
 import * as React from "react";
 import "../styles/Landing.css";
-import WiCSLogo from "../styles/images/WiCSLogo.png";
+import WiCSLogo from "../assets/images/WiCSLogo.png";
+import { Col } from "react-bootstrap";
 
-function LandingAll() {
+const Landing = () => {
   return (
-    <div class="flex-container">
-      <div class="column" classname="landing-column-left">
-        <div style={{ "font-size": "50px" }}>
+    <div className="landing-container">
+      <Col sm={12} md={6}>
+        <h1 style={{ "font-size": "50px" }} className="lh-base">
           We are <b>Brown Women in Computer Science</b>
-        </div>
+        </h1>
         <div style={{ "font-size": "20px" }}>
           Brown University's social and professional community to support and
           empower women pursuing CS!
         </div>
         <br />
         <LandingButton />
-      </div>
-      <div class="column">
-        <div>
-          <img src={WiCSLogo} style={{ "max-width": "110%" }} alt="Logo" />{" "}
-        </div>
-      </div>
+      </Col>
+      <Col sm={12} md={6} className="d-flex justify-content-end">
+        <img src={WiCSLogo} style={{ "max-width": "80%" }} alt="Logo" />
+      </Col>
     </div>
   );
 }
@@ -38,7 +37,4 @@ function LandingButton() {
   );
 }
 
-export const Landing = () => {
-  return <LandingAll />;
-};
 export default Landing;
