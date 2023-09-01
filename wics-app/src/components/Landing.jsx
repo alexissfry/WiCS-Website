@@ -7,8 +7,11 @@ const Landing = () => {
   return (
     <div className="landing-container">
       <Col sm={12} md={6}>
-        <h1 style={{ "font-size": "50px" }} className="lh-base">
-          We are <b>Brown Women in Computer Science</b>
+        <h1
+          style={{ "font-size": "42px", "font-color": "182C37" }}
+          className="lh-base"
+        >
+          We are <b>Brown University Women in Computer Science</b>
         </h1>
         <div style={{ "font-size": "20px" }}>
           Brown University's social and professional community to support and
@@ -22,11 +25,11 @@ const Landing = () => {
       </Col>
     </div>
   );
-}
+};
 
 function LandingButton() {
   return (
-    <a href="https://linktr.ee/brownuwics" target="_blank" rel="noreferrer">
+    <a href="#Resources" rel="noreferrer">
       <button
         class="btn btn-primary"
         style={{ "background-color": "#182C37", border: "#182C37" }}

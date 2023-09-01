@@ -1,6 +1,13 @@
 import React from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
-import { socials1, socials2, socials3, socials4, socials5, socials6 } from "../assets/socials_images/socials";
+import {
+  socials1,
+  socials2,
+  socials3,
+  socials4,
+  socials5,
+  socials6,
+} from "../assets/socials_images/socials";
 import "../styles/Socials.css";
 
 const Socials = () => {
@@ -13,12 +20,8 @@ const Socials = () => {
           <a href="https://www.instagram.com/brownuwics/" class="link-text">
             Instagram
           </a>{" "}
-          and{" "}
-          <a href="https://www.facebook.com/BrownUWics" class="link-text">
-            Facebook
-          </a>
-          ! & To stay updated on our events subscribe to the WiCS Listserv
-          and join our Slack.
+          ! To stay updated on our events subscribe to the WiCS Mailing List and
+          join our Slack below.
         </h3>
       </div>
       <Row>

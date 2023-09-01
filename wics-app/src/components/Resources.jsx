@@ -1,5 +1,10 @@
 import React from "react";
 import { Button, Row, Col } from "react-bootstrap";
+import {
+  BsFillHeartFill,
+  BsPeopleFill,
+  BsFillRocketFill,
+} from "react-icons/bs";
 import "../styles/Resources.css";
 
 const Resources = () => {
@@ -10,37 +15,48 @@ const Resources = () => {
         <Col md={4} sm={8}>
           <div className="card mentorship">
             <div className="top-container">
+              <BsFillHeartFill className="icon" size={36} />
               <h3 className="resource-title">Mentorship</h3>
               <div className="desc">
                 Get paired with a peer to learn about industry, research,
-                internships, interviews, and much more!
+                internships, and CS at Brown!
               </div>
             </div>
-            <Button variant="light" className="button">Coming Soon</Button>
+            <Button variant="light" className="button">
+              Coming Soon
+            </Button>
           </div>
         </Col>
         <Col md={4} sm={8}>
           <div className="card community">
             <div className="top-container">
+              <BsPeopleFill className="icon" size={36} />
               <h3 className="resource-title">Community</h3>
               <div className="desc">
-                Stay connected with the WiCS community at Brown online and
-                always!
+                Stay updated on WiCS events and other opportunities!
               </div>
             </div>
-            <Button variant="light" className="button">Join Our Slack</Button>
+            <Button variant="light" className="button">
+              Join our Mailing List + Slack
+            </Button>
           </div>
         </Col>
         <Col md={4} sm={8}>
           <div className="card mailing">
             <div className="top-container">
-              <h3 className="resource-title">Mailing List</h3>
+              <BsFillRocketFill className="icon" size={36} />
+              <h3 className="resource-title">Opportunities</h3>
               <div className="desc">
-                Stay updated on our events, internships, hackathons, and so much
-                more!
+                Browse our resources on internships, hackathons, tech events,
+                and so much more!
               </div>
             </div>
-            <Button variant="light" className="button">Sign Up</Button>
+            <Button
+              variant="light"
+              className="button"
+            >
+              Visit our Notion
+            </Button> 
           </div>
         </Col>
       </Row>

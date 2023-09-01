@@ -1,19 +1,18 @@
 import React from "react";
 import "./styles/App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { 
-  Navbar, 
-  Contact, 
-  Socials, 
-  Landing, 
-  Mission, 
-  Calendar, 
-  Footer, 
-  Resources 
-} from "./components/components"
+import {
+  Navbar,
+  Contact,
+  Socials,
+  Landing,
+  Mission,
+  Calendar,
+  Footer,
+  Resources,
+} from "./components/components";
 
 function App() {
-
   return (
     <div className="app">
       <div id="navbar">
