@@ -3,51 +3,51 @@ export const profiles = [
   {
     name: "Emily Ye '24",
     title: "Co-President",
-    image: "image1.jpg",
+    image: "eye.jpg",
   },
   {
     name: "Natalee Amhaz '24",
     title: "Co-President",
-    image: "image2.jpg",
+    image: "namhaz.jpg",
   },
   {
     name: "Claire Yang '25",
     title: "Vice President",
-    image: "image3.jpg",
+    image: "cyang.jpg",
   },
   {
     name: "Catherine Kim '25",
     title: "Vice President",
-    image: "image4.jpg",
+    image: "eye.jpg",
   },
   {
     name: "Alexis Fry '25",
     title: "Technology Co-Chair",
-    image: "image5.jpg",
+    image: "eye.jpg",
   },
   {
     name: "Haruka Masamura '25",
     title: "Technology Co-Chair",
-    image: "image5.jpg",
+    image: "hmasamura.jpg",
   },
   {
     name: "Jo Kavishe '25",
     title: "",
-    image: "image5.jpg",
+    image: "eye.jpg",
   },
   {
     name: "Maria Chavez Zapata '25",
     title: "",
-    image: "image5.jpg",
+    image: "eye.jpg",
   },
   {
     name: "Dior Williams '26",
     title: "",
-    image: "image5.jpg",
+    image: "dwilliams.jpg",
   },
   {
     name: "Rebecca Chou '26",
     title: "",
-    image: "image5.jpg",
+    image: "rchou.jpg",
   },
 ];

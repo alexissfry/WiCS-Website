@@ -10,10 +10,10 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  border: 0px;
   border-radius: 20px;
   padding: 30px 20px 20px 20px;
   margin: 20px;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .top-container {
@@ -49,15 +49,15 @@
 }
 
 .mentorship {
-  background: #E8C8F8;
+  background: #d8b4ea;
 }
 
 .community {
-  background: #c7ade8;
+  background: #bd9fe3;
 }
 
 .mailing {
-  background: #182c37;
+  background: #203946;
 }
 
 .button {
@@ -66,7 +66,7 @@
   padding: 8px 8px;
   border-radius: 20px;
   font-size: 17px;
-  color: #182C37;
+  color: #203946;
 }
 
 .icon {
