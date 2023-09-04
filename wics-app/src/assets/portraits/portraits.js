@@ -18,7 +18,7 @@ export const profiles = [
   {
     name: "Catherine Kim '25",
     title: "Vice President",
-    image: "eye.jpg",
+    image: "ckim.jpg",
   },
   {
     name: "Alexis Fry '25",
