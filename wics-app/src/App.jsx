@@ -28,11 +28,11 @@ function App() {
         <section id="Calendar">
           <Calendar />
         </section>
-        <section id="Socials">
-          <Socials />
-        </section>
         <section id="Resources">
           <Resources />
+        </section>
+        <section id="Socials">
+          <Socials />
         </section>
         <section id="Contacts">
           <Contact />

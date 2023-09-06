@@ -36,7 +36,7 @@ const Profile = ({ name, image, title }) => {
 const Contact = () => {
   return (
     <Container className="content-container">
-      <h1 className="section-header">Exec Board</h1>
+      <h1 className="section-header">Executive Board</h1>
       <Row className="m-5 justify-content-center">
         {profiles.map((profile) => (
           <Profile

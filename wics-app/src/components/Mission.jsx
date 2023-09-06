@@ -4,32 +4,30 @@ import "../styles/Mission.css";
 const Mission = () => {
   return (
     <div className="content-container">
-      <h1 className="section-header">
-        Mission
-      </h1>
+      <h1 className="section-header">Mission</h1>
       <div className="text-container">
         Women in Computer Science (WiCS) was formed by female undergraduate
-        students at Brown in the late 1980s as an affinity group of Women in
-        Science and Engineering (WiSE). The goal of WiCS is to increase the
-        participation of women in the field of Computer Science. <br></br>
+        students at Brown in the late 1980s to increase the participation of
+        women in the field of Computer Science. <br></br>
         <br />
-        Now, WiCS continues this effort through Brown's computer science
-        department, and also seeks to improve diversity and inclusion for
-        underrepresented minorities in the tech industry. WiCS works to this end
-        through its{" "}
-        <span class="purple"> social, mentoring and outreach programs</span>,
-        along with its facilitation of discussions and its cooperation in
-        department action plans. <br></br>
+        Affiliated with the Brown University Department of Computer Science,
+        WiCS seeks to improve diversity and inclusion for underrepresented
+        gender minorities in the technology industry through our{" "}
+        <span class="purple">
+          {" "}
+          social, mentoring, and outreach programs
+        </span>. <br></br>
         <br />
-        One highlight of WiCS is its organization of social events for members
-        of the department to meet and get to know each other. Often these events
-        include invited guests such as women and underrepresented minorities
-        from industry and academia. <br></br>
+        One highlight of WiCS is its organization of{" "}
+        <span class="purple"> social events</span> for female students within
+        the Computer Science department to meet and get to know each other, like
+        our scavenger hunt. We also enjoy partnering with other tech
+        organizations on campus, like MOSAIC+ and Hack@Brown, to{" "}
+        <span class="purple">build bridges across Brown's tech community</span>.
+        Lastly, we love to host events with industry sponsors to connect our
+        members with opportunities beyond the classroom.
         <br></br>
-        As part of its outreach program, WiCS support the
-        <span class="purple"> Artemis Project</span>, a free summer camp for
-        rising ninth-grade girls from the Providence area who show interest in
-        science and technology.
+        <br></br>
       </div>
     </div>
   );

@@ -36,7 +36,12 @@ const Resources = () => {
                 Stay updated on WiCS events and other opportunities!
               </div>
             </div>
-            <Button variant="light" className="button">
+            <Button
+              variant="light"
+              className="button"
+              href="https://forms.gle/XGeACWXtdqim9Cmt5"
+              target="_blank"
+            >
               Join our Mailing List + Slack
             </Button>
           </div>
@@ -54,9 +59,11 @@ const Resources = () => {
             <Button
               variant="light"
               className="button"
+              href="https://highfalutin-hunter-64e.notion.site/Brown-WiCS-Resources-ad53766eb36c40e9ace14a45bdd955ba?pvs=4"
+              target="_blank"
             >
               Visit our Notion
-            </Button> 
+            </Button>
           </div>
         </Col>
       </Row>

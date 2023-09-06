@@ -17,11 +17,11 @@ function Navbar() {
         <li className="Calendar">
           <a href="#Calendar">Calendar</a>
         </li>
-        <li className="Socials">
-          <a href="#Socials">Socials</a>
-        </li>
         <li className="Resources">
           <a href="#Resources">Resources</a>
+        </li>
+        <li className="Socials">
+          <a href="#Socials">Socials</a>
         </li>
         <li className="Contacts">
           <a href="#Contacts">Contact Us</a>
